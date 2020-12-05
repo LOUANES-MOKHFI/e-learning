@@ -1,0 +1,51 @@
+.mbr-box__container {
+    height: 50%;
+}
+.mbr-section__container {
+    padding: 0;
+    position: relative;
+    z-index: 3;
+}
+
+@media (min-width: 1200px)
+.container {
+    width: 1150px;
+}
+@media (min-width: 992px)
+.container {
+    width: 935px;
+}
+
+@media (min-width: 768px)
+.container {
+    width: 715px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.mbr-box__magnet--top-left, .mbr-box__magnet--center-left, .mbr-box__magnet--bottom-left {
+    text-align: left;
+}
+.mbr-box__magnet {
+    display: table-cell;
+    float: none;
+    height: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.mbr-box--stretched {
+    height: 100%;
+}
